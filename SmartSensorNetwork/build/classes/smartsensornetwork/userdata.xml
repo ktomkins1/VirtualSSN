@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <NCAP>
+        ncap1
+        <TIM>
+            tim1
+            <TRANSDUCER>
+                transducer1
+            </TRANSDUCER>
+        </TIM>
+        <TIM>
+            <TRANSDUCER>
+                transducer2
+            </TRANSDUCER>
+            <TRANSDUCER>
+                transducer3
+            </TRANSDUCER>
+        </TIM>
+    </NCAP>
+    text
+    <NCAP>
+        ncap2
+        <TIM>
+            <TRANSDUCER>
+                transducer4
+            </TRANSDUCER>
+            <TRANSDUCER>
+                transducer5
+                <TEDS>
+                    teds1
+                </TEDS>
+            </TRANSDUCER>
+        </TIM>
+        ncop
+    </NCAP>
+    text2
+    <NCAP>
+        ncap3
+    </NCAP>
+    text3
+</root>
